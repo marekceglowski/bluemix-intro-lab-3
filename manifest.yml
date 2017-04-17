@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 768M
+  instances: 1
+  domain: mybluemix.net
+  name: bluemix-intro-lab-3
+  host: bluemix-intro-lab-3
+  disk_quota: 1024M
+  services:
+  - bluemix-intro-lab-3-cloudantNoSQLDB
+  - Language Translator-b0
+  - Conversation-bs
